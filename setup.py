@@ -11,5 +11,6 @@ setuptools.setup(
     install_requires=[
         'pandas',
         'cognite-sdk'
-    ]
+    ],
+    scripts=['package/test.py'],
  )
