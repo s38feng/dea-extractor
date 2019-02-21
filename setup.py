@@ -1,7 +1,7 @@
 import setuptools
 
 setuptools.setup(
-    name='samfeng279-test',
+    name='samfeng279test',
     version='0.1',
     author="Sam Feng",
     author_email="samfeng279@gmail.com",
@@ -12,5 +12,5 @@ setuptools.setup(
         'pandas',
         'cognite-sdk'
     ],
-    scripts=['package/test.py'],
+    scripts=['bin/test.py'],
  )
